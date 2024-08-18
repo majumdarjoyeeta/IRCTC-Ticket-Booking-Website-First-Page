@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Indian Railways</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+        }
+        .class1 {
+            padding: 2;
+            align-items: center;
+            display: ROW;
+            flex-direction: row;
+            margin: 1px;
+        }
+        #imagediv1 {
+            height: 700px;
+            width: 50%;
+            display: flex;
+            background-color: white;
+            background-position: right top;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: right;
+            backface-visibility: visible;
+        }
+        #buttonid {
+            background-color: orange;
+            border-radius: 2px;
+        }
+        #buttonid1 {
+            border-radius: 2px;
+            background-color: rgb(255, 255, 255);
+        }
+        #divclass {
+            gap: 2rem;
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            top: 65px;
+            left: 450px;
+        }
+        #tableid {
+            position: absolute;
+            display: flex;
+            top: 0px;
+            left: 200px;
+        }
+        #ulid {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            padding: 0;
+        }
+        .safety-security-punctuality {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .safety {
+            color: green;
+        }
+        .security {
+            color: rgb(250, 138, 52);
+        }
+        .punctuality {
+            color: blue;
+        }
+        .main-content {
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            flex: 1;
+        }
+        .left-content {
+            flex: 1;
+        }
+        .button-container {
+            display: flex;
+            gap: 10px;
+            background-color: white;
+        }
+        .b1 {
+            flex-direction: row;
+            padding: 2px;
+            background-color: rgb(45, 45, 111);
+            color: white;
+            border-radius: 2px;
+        }
+        .b2 {
+            flex-direction: row;
+            background-position-x: left;
+            padding: 2px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 2px;
+            border: 1px solid #ccc;
+        }
+        .b3 {
+            flex-direction: row;
+            padding: 2px;
+            background-color: rgb(246, 246, 246);
+            border-radius: 2px;
+            border: 1px solid #ccc;
+        }
+        #buttonid2 {
+            background-color: rgb(28, 215, 28);
+            border: 5% rgb(28, 215, 28);
+            border-radius: 5px;
+            font-size: 20px;
+            border-color: rgb(28, 215, 28);
+            text-align: center white;
+            padding: 15px;
+            height: 60px;
+            width:700px;
+        }
+        #button3 {
+            border-radius: 100%;
+            background-color: white;
+        }
+        .divclasstrain {
+            display: flex;
+            gap: 150px;
+            border: 2px solid #000;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .divclasstrain > div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .h2class {
+            margin: 2px black;
+            border-radius: 20px;
+        }
+        .divclasstrain1 {
+            display: flex;
+            gap: 150px;
+            border: 2px solid #000;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="left-content">
+            <table id="tableid">
+                <th>
+                    <tr>
+                        <img src="https://1000logos.net/wp-content/uploads/2022/02/IRCTC-logo.png" alt="loading" height="70px" width="100px">
+                    </tr>
+                    <tr>
+                        <img src="https://i.pinimg.com/originals/6a/72/4b/6a724b9501764fd83a4abcd37b58144d.png" alt="loading" width="70px" height="70px">
+                    </tr>
+                </th>
+            </table>
+            <h1>Indian Railways</h1>
+            <div class="safety-security-punctuality">
+                <h2>
+                    <span class="safety">Safety</span>
+                    <span class="security">Security</span>
+                    <span class="punctuality">Punctuality</span>
+                </h2>
+            </div>
+            <div class="divclasstrain">
+                <div>
+                    <span>From 🢃</span>
+                    <b><h3>🚈 Bangalore</h3></b>
+                    <span>KSR - Bangalore</span>
+                </div>
+                <div><h2 class="h2class">⇄</h2></div>
+                <div>
+                    <span>To 🢃</span>
+                    <b><h3>🚈 Kasaragod</h3></b>
+                    <span>KSD - Kasaragod</span>
+                </div>
+            </div><br><br>
+            <div class="divclasstrain1">
+                <div>
+                    <span>Date 🢃</span>
+                    <b><h3>📅 01 Aug 23</h3></b>
+                    <span> Tuesday</span>
+                </div>
+                <div>
+                    <span>Class 🢃</span>
+                    <b><h3>☢3A</h3></b>
+                    <span>AC 3 Tier</span>
+                </div>
+                <div>
+                    <span>Seat Type 🢃</span>
+                    <b><h3>🪟 TATKAL</h3></b>
+                </div>
+            </div>
+            <br>
+            <br>
+            <button id="buttonid2">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Search Train → &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</button>
+            <div id="divclass">
+                <div>Ask Disha<br><button id="buttonid">Login</button></div>
+                <div>Contact Us<br><button id="buttonid1">Register</button></div>
+                <div>Alerts<br><button id="buttonid1">Agent Login</button></div>
+            </div>
+        </div>
+        <div id="imagediv1"><img src="https://bsmedia.business-standard.com/_media/bs/img/misc/2020-09/26/full/20200925227L.jpg" alt="loading">
+    </div>
+</body>
+</html>
